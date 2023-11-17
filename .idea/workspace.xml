@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="classicmodels_tue:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="35c769c9-c037-4afe-858f-e5ef58ec3e57" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/entities/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/entities/Environment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/entities/Office.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/repository/EntityManagerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/repository/OfficeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/servlet/OfficeDeleteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/servlet/OfficeInsertServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/servlet/OfficeListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/servlet/OfficeUpdateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/servlet/ProductListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/test/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/test/TestEmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/test/TestEntityRelationship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/test/TestJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/test/TestListAlloffice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/test/TestPagination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sit/int202/classicmodels_tue/test/TestQueryParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S10_1949.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S10_4757.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S10_4962.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S12_1099.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S12_1108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S12_3148.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S12_3380.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S12_3891.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S12_3990.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S12_4675.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S18_1129.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S18_1589.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S18_1889.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S18_1984.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S18_2238.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S18_2870.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S18_3232.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S18_3233.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S18_3278.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S18_3482.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S18_3685.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S18_4027.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S18_4721.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S18_4933.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S24_1046.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S24_1444.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S24_1628.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S24_2766.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S24_2840.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S24_2887.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S24_2972.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S24_3191.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S24_3371.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S24_3432.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S24_3856.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S24_4048.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S24_4620.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Classic Cars/S700_2824.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Motorcycles/S10_1678.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Motorcycles/S10_2016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Motorcycles/S10_4698.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Motorcycles/S12_2823.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Motorcycles/S18_2625.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Motorcycles/S18_3782.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Motorcycles/S24_1578.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Motorcycles/S24_2000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Motorcycles/S24_2360.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Motorcycles/S32_1374.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Motorcycles/S32_2206.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Motorcycles/S32_4485.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Motorcycles/S50_4713.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Planes/S18_1662.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Planes/S18_2581.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Planes/S24_1785.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Planes/S24_2841.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Planes/S24_3949.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Planes/S24_4278.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Planes/S700_1691.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Planes/S700_2466.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Planes/S700_2834.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Planes/S700_3167.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Planes/S700_4002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Planes/S72_1253.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Ships/S18_3029.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Ships/S24_2011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Ships/S32_3207.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Ships/S50_1514.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Ships/S700_1138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Ships/S700_1938.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Ships/S700_2047.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Ships/S700_2610 - Copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Ships/S700_2610.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Ships/S700_3505.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Ships/S700_3962.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Ships/S72_3212.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Trains/S18_3259.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Trains/S32_3207.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Trains/S50_1514.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Trucks and Buses/S12_1666.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Trucks and Buses/S12_4473.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Trucks and Buses/S18_1097.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Trucks and Buses/S18_2319.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Trucks and Buses/S18_2432.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Trucks and Buses/S18_4600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Trucks and Buses/S24_2300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Trucks and Buses/S32_1268.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Trucks and Buses/S32_2509.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Trucks and Buses/S32_3522.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Trucks and Buses/S50_1392.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S18_1342.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S18_1367.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S18_1749.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S18_2248.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S18_2325.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S18_2795.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S18_2949.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S18_2957.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S18_3136.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S18_3140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S18_3320.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S18_3856.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S18_4409.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S18_4522.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S18_4668.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S24_1937.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S24_2022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S24_3151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S24_3420.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S24_3816.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S24_3969.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S24_4258.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S32_4289.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/model-images/Vintage Cars/S50_1341.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/new-office-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/new-product-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/office-insert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/office-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/office-update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/product-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/product_list.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Servlet" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2WYxcLEW49JhzzrBjent8cvvijU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_directory_selection": "C:/Users/nitro5/IdeaProjects/classicmodels_tue/src/test/java",
+    "last_opened_file_path": "C:/Users/nitro5/Desktop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nitro5\IdeaProjects\classicmodels_tue\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nitro5\IdeaProjects\classicmodels_tue\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.11">
+    <configuration name="TestEntityRelationship" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sit.int202.classicmodels_tue.test.TestEntityRelationship" />
+      <module name="classicmodels_tue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sit.int202.classicmodels_tue.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJpa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sit.int202.classicmodels_tue.test.TestJpa" />
+      <module name="classicmodels_tue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sit.int202.classicmodels_tue.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestListAlloffice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sit.int202.classicmodels_tue.test.TestListAlloffice" />
+      <module name="classicmodels_tue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sit.int202.classicmodels_tue.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPagination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sit.int202.classicmodels_tue.test.TestPagination" />
+      <module name="classicmodels_tue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sit.int202.classicmodels_tue.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestQueryParameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sit.int202.classicmodels_tue.test.TestQueryParameter" />
+      <module name="classicmodels_tue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sit.int202.classicmodels_tue.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10.1.11" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.11" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="classicmodels_tue:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/classicmodels_tue_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="8b19e056-0398-437f-ae54-01233d22629d" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64106" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="classicmodels_tue:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestEntityRelationship" />
+      <item itemvalue="Application.TestJpa" />
+      <item itemvalue="Application.TestListAlloffice" />
+      <item itemvalue="Application.TestPagination" />
+      <item itemvalue="Application.TestQueryParameter" />
+      <item itemvalue="Tomcat Server.Tomcat 10.1.11" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestListAlloffice" />
+        <item itemvalue="Application.TestEntityRelationship" />
+        <item itemvalue="Application.TestQueryParameter" />
+        <item itemvalue="Application.TestPagination" />
+        <item itemvalue="Application.TestJpa" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35c769c9-c037-4afe-858f-e5ef58ec3e57" name="Changes" comment="" />
+      <created>1696923394640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696923394640</updated>
+      <workItem from="1696923395744" duration="5747000" />
+      <workItem from="1697525695185" duration="8519000" />
+      <workItem from="1698491828893" duration="81000" />
+      <workItem from="1699339297883" duration="5029000" />
+      <workItem from="1699344505182" duration="359000" />
+      <workItem from="1699344878105" duration="1078000" />
+      <workItem from="1699345973620" duration="2766000" />
+      <workItem from="1699348760018" duration="1311000" />
+      <workItem from="1699351094863" duration="29997000" />
+      <workItem from="1699449808135" duration="6206000" />
+      <workItem from="1699509821272" duration="1285000" />
+      <workItem from="1699632867712" duration="6707000" />
+      <workItem from="1699780189946" duration="5347000" />
+      <workItem from="1699879434235" duration="1745000" />
+      <workItem from="1699937804556" duration="4010000" />
+      <workItem from="1699941845531" duration="7238000" />
+      <workItem from="1699949453776" duration="3458000" />
+      <workItem from="1700028344000" duration="509000" />
+      <workItem from="1700069815344" duration="4372000" />
+      <workItem from="1700106641485" duration="495000" />
+      <workItem from="1700116639169" duration="3793000" />
+      <workItem from="1700124321986" duration="2370000" />
+      <workItem from="1700213683192" duration="13936000" />
+      <workItem from="1700228353086" duration="60000" />
+      <workItem from="1700228421671" duration="183000" />
+      <workItem from="1700228614157" duration="6063000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
