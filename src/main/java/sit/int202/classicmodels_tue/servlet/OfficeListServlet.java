@@ -38,6 +38,7 @@ public class OfficeListServlet extends HttpServlet {
             request.setAttribute("errorCityOrCountry", "No offices found for the specified City/Country name " + cityOrCountry +".");
 
         }
-        getServletContext().getRequestDispatcher("/office-list.jsp").forward(request, response);
+//        getServletContext().getRequestDispatcher("/office-list.jsp").forward(request, response);
+        getServletContext().getRequestDispatcher("/new-office-list.jsp").forward(request, response);
     }
 }

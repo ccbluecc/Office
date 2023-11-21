@@ -22,7 +22,7 @@
     <c:if test="${error ne null}">
         <div class="text-danger">${error}</div>
     </c:if>
-    <form class="row g-3" method="post" action="${pageContext.request.contextPath}/office-update">
+    <form class="row g-3" method="post" action="office-update">
         <div class="col-md-6">
             <label for="inputCountry" class="form-label">Country<sup class="text-danger">*</sup></label>
             <input type="text" class="form-control" id="inputCountry" name="country" value="${offices.country}" required>

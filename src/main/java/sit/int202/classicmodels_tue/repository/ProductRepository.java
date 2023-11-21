@@ -41,4 +41,8 @@ public class ProductRepository {
         entityManager.close();
         return number;
     }
+
+    public Product findProduct(String productCode) {
+        return  getEntityManager().find(Product.class,productCode);
+    }
 }
