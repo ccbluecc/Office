@@ -97,15 +97,20 @@
             const xhttp = new XMLHttpRequest();
             xhttp.onload = function () {
                 setLoading('off');
-                cartInfo = document.getElementById("noOfItemInCart");
-                noOfItem = xhttp.responseText;
-                if (noOfItem > 0) {
-                    cartInfo.style.display = 'inline'
+                if (xhttp.status == 200) {
+                    cartInfo = document.getElementById("noOfItemInCart");
+                    noOfItem = xhttp.responseText;
+                    if (noOfItem > 0) {
+                        cartInfo.style.display = 'inline'
+                    } else {
+                        cartInfo.style.display = 'none'
+                    }
+                    cartInfo.innerHTML = noOfItem;
                 } else {
-                    cartInfo.style.display = 'none'
+                    alert('Error: ' + xhttp.status + " --- " + xhttp.getResponseHeader("error"));
                 }
-                cartInfo.innerHTML = noOfItem;
             }
+
             xhttp.open("GET",
                 "add-to-cart?productCode=" + productCode);
             xhttp.send();
@@ -126,6 +131,48 @@
             xhttp.send();
         }
 
+        function showLoginForm() {
+            let menu = document.getElementById("login-menu").innerHTML;
+            if (menu.includes('Logout')) {
+                logout();
+            } else {
+                $('#modalLoginForm').modal('show');
+            }
+        }
+        function logout() {
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+                location.reload();
+            }
+            xhttp.open
+            ("GET", "logout");
+            xhttp.send();
+        }
+        function login(userName, password) {
+            if (userName === '' || password === '' || userName === undefined) {
+                document.getElementById("login-message").innerHTML = "Invalid user name or password !!!";
+            }
+            setLoading('on')
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function () {
+                setLoading('off');
+                if (xhttp.status == 200) {
+                    $('#modalLoginForm').modal('hide');
+                    document.getElementById("login-menu").innerHTML =
+                        "<i class='bi bi-box-arrow-left'></i> Logout"
+                } else {
+                    document.getElementById("login-message").innerHTML = "Login Error" + xhttp.status + "---" + xhttp.getResponseHeader("error");
+                }
+            }
+            let urlEncodedData = "", urlEncodedDataPairs = [];
+            urlEncodedDataPairs.push(encodeURIComponent("userName") + '=' + encodeURIComponent(userName));
+            urlEncodedDataPairs.push(encodeURIComponent("password") + '=' + encodeURIComponent(password));
+            urlEncodedData = urlEncodedDataPairs.join('&').replace(/%20/g, '+');
+            xhttp.open("POST", "login");
+            xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhttp.send(urlEncodedData);
+        }
+
 
 
     </script>
@@ -144,7 +191,8 @@
                     <a class="nav-link" href="javascript:void(0)">Order History</a>
                 </li>
                 <li class="nav-item ml-4">
-                    <a class="nav-link text-light" href="#"><i class="bi bi-box-arrow-in-right"></i> Login</a>
+                        <a class="nav-link text-light" href="javascript:showLoginForm()" id="login-menu">
+                        <i class="bi bi-box-arrow-in-right"></i> Login</a>
                 </li>
             </ul>
             <div style="margin-right: 20px">
@@ -181,6 +229,7 @@
             </div>
         </div>
     </div>
-</div
+</div>
+<jsp:include page="WEB-INF/jsp/login-form.html"/>
 </body>
 </html>
